@@ -1,6 +1,7 @@
 import { pool } from './db.js';
 
 const products = [
+  // ORIGINAL 10 PRODUCTS
   {
     name: "Classic Heritage Leather Jacket",
     category: "men",
@@ -110,6 +111,342 @@ const products = [
     sizes: "90cm x 90cm",
     colors: "Vintage Ochre,Ruby Red",
     stock: 35
+  },
+
+  // 10 NEW MEN'S ITEMS
+  {
+    name: "1960s Ivy League Cardigan",
+    category: "men",
+    description: "An authentic collegiate classic, knit from ultra-soft lambswool. Features contrasting button borders, dual front pockets, and tortoiseshell button closures. Timeless Ivy style.",
+    price: 135.00,
+    image_url: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=600&auto=format&fit=crop&q=80",
+    rating: 4.6,
+    sizes: "S,M,L,XL",
+    colors: "Burgundy/Cream,Navy/White,Mustard",
+    stock: 18
+  },
+  {
+    name: "Selvedge Denim Worker Jacket",
+    category: "men",
+    description: "Constructed from heavy 14oz Japanese raw selvedge denim. This rugged workwear utility jacket boasts reinforced triple-stitched seams, multi-point utility pockets, and copper buttons that develop beautiful character over time.",
+    price: 165.00,
+    image_url: "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&auto=format&fit=crop&q=80",
+    rating: 4.7,
+    sizes: "M,L,XL,XXL",
+    colors: "Indigo Blue,Midnight Charcoal",
+    stock: 12
+  },
+  {
+    name: "Vintage Suede Sherpa Coat",
+    category: "men",
+    description: "Luxuriously thick split-suede leather coat lined with premium plush sherpa fleece. Engineered with adjustable tab cuffs, a heavy-duty zipper and storm flap, and deep fleece-lined handwarmer pockets.",
+    price: 295.00,
+    image_url: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&auto=format&fit=crop&q=80",
+    rating: 4.9,
+    sizes: "S,M,L,XL,XXL",
+    colors: "Saddle Tan,Espresso Brown",
+    stock: 10
+  },
+  {
+    name: "Retro Fine-Knit Polo Shirt",
+    category: "men",
+    description: "Classic 1970s style knit polo shirt crafted in organic cotton. This shirt presents a beautiful knit point collar, tailored ribbed cuffs, and contrasting vintage stripes across the chest.",
+    price: 79.00,
+    image_url: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&auto=format&fit=crop&q=80",
+    rating: 4.4,
+    sizes: "S,M,L,XL",
+    colors: "Amber Gold,Olive Green,Navy Blue",
+    stock: 25
+  },
+  {
+    name: "Chambray Utility Work Shirt",
+    category: "men",
+    description: "Woven on traditional shuttle looms using fine indigo-dyed cotton yarn. Features dual button-through chest pockets, a classic pen-slot pocket, and contrasting white stitching.",
+    price: 85.00,
+    image_url: "https://images.unsplash.com/photo-1620012253295-c05518e993be?w=600&auto=format&fit=crop&q=80",
+    rating: 4.3,
+    sizes: "M,L,XL,XXL",
+    colors: "Chambray Indigo,Light Gray",
+    stock: 30
+  },
+  {
+    name: "Heritage Tweed Tailored Trousers",
+    category: "men",
+    description: "Crafted in beautifully textured wool-tweed fabric. Featuring a modern slim-straight silhouette, partial satin inner-lining for comfort, secure button-through welt back pockets, and belt loops.",
+    price: 145.00,
+    image_url: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?w=600&auto=format&fit=crop&q=80",
+    rating: 4.5,
+    sizes: "30,32,34,36,38",
+    colors: "Dark Gray Herringbone,Taupe Twist",
+    stock: 16
+  },
+  {
+    name: "1950s Leather Varsity Jacket",
+    category: "men",
+    description: "An absolute retro standout. Made with custom thick wool-blend body panels and contrasted with genuine, ultra-soft full-grain cowhide leather sleeves. Classic striped ribbed cuffs, hem, and collar.",
+    price: 260.00,
+    image_url: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600&auto=format&fit=crop&q=80",
+    rating: 4.8,
+    sizes: "S,M,L,XL",
+    colors: "Red/White,Hunter Green/Cream",
+    stock: 8
+  },
+  {
+    name: "Waxed Cotton Field Jacket",
+    category: "men",
+    description: "The ultimate rugged outdoor jacket. Constructed from highly durable, water-resistant waxed cotton sailcloth. Features a soft corduroy-lined collar, brass snap button storm flap, and four oversized utility pockets.",
+    price: 220.00,
+    image_url: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&auto=format&fit=crop&q=80",
+    rating: 4.6,
+    sizes: "M,L,XL,XXL",
+    colors: "Forest Olive,Mustard Ochre",
+    stock: 14
+  },
+  {
+    name: "Aran Fisherman Wool Turtleneck",
+    category: "men",
+    description: "Authentic, high-weight knit sweater featuring traditional Aran cable and diamond patterns. Spun from 100% thick, insulating Highland wool to keep you warm in any weather.",
+    price: 155.00,
+    image_url: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&auto=format&fit=crop&q=80",
+    rating: 4.7,
+    sizes: "S,M,L,XL",
+    colors: "Natural Off-White,Stone Gray",
+    stock: 20
+  },
+  {
+    name: "British Waxed Hunting Vest",
+    category: "men",
+    description: "Perfect layer for transitional weather. Tailored in water-repellent waxed canvas, featuring a zippered front, side-loading game pockets, corduroy lining inside, and dual front cartridges utility pockets.",
+    price: 110.00,
+    image_url: "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=600&auto=format&fit=crop&q=80",
+    rating: 4.4,
+    sizes: "M,L,XL",
+    colors: "Dark Khaki,Deep Navy",
+    stock: 22
+  },
+
+  // 10 NEW WOMEN'S ITEMS
+  {
+    name: "1940s Crepe Floral Tea Dress",
+    category: "women",
+    description: "A gorgeous, authentic vintage silhouette tea dress crafted in fluid crepe fabric. Adorned with a delicate hand-drawn wild floral pattern, gentle puff sleeves, a sweetheart neckline, and a cinched tie back.",
+    price: 149.00,
+    image_url: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&auto=format&fit=crop&q=80",
+    rating: 4.8,
+    sizes: "XS,S,M,L,XL",
+    colors: "Sage Green,Dusty Rose,Black Floral",
+    stock: 14
+  },
+  {
+    name: "Victorian Lace High-Neck Blouse",
+    category: "women",
+    description: "An elegant, romantic blouse made from semi-sheer organic cotton. Features intricate floral lace inserts along the collar and chest, a sophisticated high buttoned neck, and ruffled cuffs.",
+    price: 75.00,
+    image_url: "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&auto=format&fit=crop&q=80",
+    rating: 4.6,
+    sizes: "XS,S,M,L",
+    colors: "Antique Ivory,Soft Black",
+    stock: 18
+  },
+  {
+    name: "High-Waisted Sailor Denim Jeans",
+    category: "women",
+    description: "Vintage 1970s marine inspired denim jeans. High-rise waist with a classic double-breasted patch button front, a flattering wide-leg drape, and deep rectangular front pockets.",
+    price: 110.00,
+    image_url: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+    rating: 4.5,
+    sizes: "24,26,28,30,32",
+    colors: "Classic Indigo,Stone Washed Blue",
+    stock: 20
+  },
+  {
+    name: "Retro Suede A-Line Button Skirt",
+    category: "women",
+    description: "Structured A-line skirt tailored from genuine premium goat suede leather. Features a full snap-button front closure, a flattering high-waist band, and beautiful seam stitch paneling.",
+    price: 139.00,
+    image_url: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&auto=format&fit=crop&q=80",
+    rating: 4.7,
+    sizes: "XS,S,M,L",
+    colors: "Cognac Tan,Chestnut Brown,Charcoal",
+    stock: 12
+  },
+  {
+    name: "1960s Houndstooth Shift Dress",
+    category: "women",
+    description: "Channeling mid-century mod style. A beautifully structured shift dress woven in a classic houndstooth wool blend. Features a retro stand-up mock neckline and double front patch pockets.",
+    price: 125.00,
+    image_url: "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&auto=format&fit=crop&q=80",
+    rating: 4.6,
+    sizes: "XS,S,M,L,XL",
+    colors: "Black/White,Brown/Beige",
+    stock: 15
+  },
+  {
+    name: "Cashmere Silk Drape Cardigan",
+    category: "women",
+    description: "An incredibly luxurious open-front cardigan knitted with a premium 70% cashmere and 30% mulberry silk blend. Features a fluid, cascading drape, ribbed cuffs, and an ultra-soft lightweight feel.",
+    price: 195.00,
+    image_url: "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&auto=format&fit=crop&q=80",
+    rating: 4.9,
+    sizes: "S,M,L,XL",
+    colors: "Soft Oatmeal,Pearl Gray,Midnight Black",
+    stock: 10
+  },
+  {
+    name: "Bohemian Embroidered Peasant Blouse",
+    category: "women",
+    description: "A breezy, vintage-style peasant blouse crafted from lightweight cotton-voile. Decorated with extensive, vibrant floral embroidery along the yoke, balloon sleeves, and tied tassels.",
+    price: 69.50,
+    image_url: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&auto=format&fit=crop&q=80",
+    rating: 4.4,
+    sizes: "XS,S,M,L,XL",
+    colors: "Cloud White/Blue,Black/Gold",
+    stock: 24
+  },
+  {
+    name: "Vintage Satin Evening Gown",
+    category: "women",
+    description: "Pure glamour. Woven in liquid-like heavy satin that drapes and shines beautifully. Features an elegant cowl neck, cross-back adjustable spaghetti straps, and a sweeping floor-length hem.",
+    price: 240.00,
+    image_url: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&auto=format&fit=crop&q=80",
+    rating: 4.9,
+    sizes: "XS,S,M,L",
+    colors: "Emerald Green,Champagne Gold,Classic Crimson",
+    stock: 6
+  },
+  {
+    name: "Flannel Plaid Heritage Dress",
+    category: "women",
+    description: "A cozy and classic shirt dress constructed from thick, double-brushed cotton flannel. Features a full button-through front, matching fabric tie-belt, buttoned sleeves, and a classic curved shirttail hem.",
+    price: 98.00,
+    image_url: "https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?w=600&auto=format&fit=crop&q=80",
+    rating: 4.5,
+    sizes: "S,M,L,XL",
+    colors: "Red Tartan,Forest Green Plaid",
+    stock: 16
+  },
+  {
+    name: "Herringbone Chesterfield Coat",
+    category: "women",
+    description: "A structured, full-length double-breasted overcoat tailored from heavy, warming herringbone wool. Designed with custom wide notched velvet collars, deep patch pockets, and premium interior satin lining.",
+    price: 289.00,
+    image_url: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&auto=format&fit=crop&q=80",
+    rating: 4.8,
+    sizes: "XS,S,M,L,XL",
+    colors: "Charcoal Herringbone,Brown Melange",
+    stock: 9
+  },
+
+  // 10 NEW ACCESSORIES ITEMS
+  {
+    name: "1920s Brass Pocket Watch",
+    category: "accessories",
+    description: "A mechanical masterpiece. Features an antique-finished solid brass casing, highly detailed engraved scrollwork on the cover, a classic roman numeral dial, and a matching 12-inch fob chain.",
+    price: 120.00,
+    image_url: "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&auto=format&fit=crop&q=80",
+    rating: 4.9,
+    sizes: "One Size",
+    colors: "Antique Gold,Gunmetal",
+    stock: 15
+  },
+  {
+    name: "Vintage Silk Pocket Square Set",
+    category: "accessories",
+    description: "A three-pack of premium pocket squares woven from pure 16mm Mulberry silk. Detailed with rolled edges, paisley, and geometric patterns to add classic elegance to any blazer pocket.",
+    price: 45.00,
+    image_url: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&auto=format&fit=crop&q=80",
+    rating: 4.5,
+    sizes: "30cm x 30cm",
+    colors: "Classic Pack,Vintage Pack",
+    stock: 40
+  },
+  {
+    name: "Distressed Leather Engineer Boots",
+    category: "accessories",
+    description: "Rugged boots built to last. Crafted from thick full-grain oil-tanned steerhide leather, featuring heavy-duty brass adjustable buckles, steel shanks, and Goodyear welt construction.",
+    price: 210.00,
+    image_url: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=600&auto=format&fit=crop&q=80",
+    rating: 4.8,
+    sizes: "8,9,10,11,12",
+    colors: "Distressed Black,Rustic Brown",
+    stock: 14
+  },
+  {
+    name: "Classic Fedora Wool Felt Hat",
+    category: "accessories",
+    description: "A sophisticated accessory structured from 100% premium wool felt. Styled with a classic teardrop crown crease, a wide bound-edge brim, and a matching grosgrain ribbon hat band.",
+    price: 85.00,
+    image_url: "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=600&auto=format&fit=crop&q=80",
+    rating: 4.4,
+    sizes: "S,M,L",
+    colors: "Midnight Charcoal,Saddle Brown",
+    stock: 18
+  },
+  {
+    name: "Suede Fringe Crossbody Bag",
+    category: "accessories",
+    description: "Channeling retro bohemian 1970s styles. Crafted from genuine split-suede leather, styled with beautiful layered swinging fringe details, custom brass hardware, and adjustable strap.",
+    price: 115.00,
+    image_url: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop&q=80",
+    rating: 4.7,
+    sizes: "One Size",
+    colors: "Caramel Suede,Olive Suede",
+    stock: 12
+  },
+  {
+    name: "Art Deco Onyx Silver Ring",
+    category: "accessories",
+    description: "A heavy, solid 925 sterling silver ring. Presents a large, polished geometric black onyx gemstone centerpiece surrounded by classic Art Deco engraved stair-step shoulders.",
+    price: 89.00,
+    image_url: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop&q=80",
+    rating: 4.6,
+    sizes: "8,9,10,11,12",
+    colors: "Sterling Silver",
+    stock: 22
+  },
+  {
+    name: "Vintage Tortoiseshell Glasses",
+    category: "accessories",
+    description: "Originally popular in the 1950s, these prescription-ready optical glasses are structured with premium acetate frames in a rich, warm tortoiseshell patterns and keyhole bridge detail.",
+    price: 79.00,
+    image_url: "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?w=600&auto=format&fit=crop&q=80",
+    rating: 4.6,
+    sizes: "Standard",
+    colors: "Amber Tortoise,Dark Havana",
+    stock: 28
+  },
+  {
+    name: "Distressed Leather Pilot Cap",
+    category: "accessories",
+    description: "An exceptional, authentic replica aviator cap. Made from distressed grain leather and fully lined with ultra-insulating, soft sheepskin wool. Includes buckle-down chin straps and earflaps.",
+    price: 95.00,
+    image_url: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80",
+    rating: 4.3,
+    sizes: "M,L",
+    colors: "Vintage Mahogany,Coal Black",
+    stock: 10
+  },
+  {
+    name: "Handwoven Alpaca Wool Scarf",
+    category: "accessories",
+    description: "Woven in the Peruvian Andes using 100% fine Baby Alpaca wool fibers. Naturally thermal, water-resistant, hypoallergenic, and detailed with elegant fringed edges for cozy luxury.",
+    price: 65.00,
+    image_url: "https://images.unsplash.com/photo-1520903781411-76fa5c8be90e?w=600&auto=format&fit=crop&q=80",
+    rating: 4.8,
+    sizes: "180cm x 35cm",
+    colors: "Oatmeal Melange,Charcoal Twist,Deep Teal",
+    stock: 32
+  },
+  {
+    name: "1950s Gold Mesh Evening Clutch",
+    category: "accessories",
+    description: "An elegant evening bag structured from liquid metal gold-plated mesh scales. Features a secure clasp closure adorned with a small glass gemstone, and a tuck-away brass chain link strap.",
+    price: 110.00,
+    image_url: "https://images.unsplash.com/photo-1566150905458-1bf1fc15aae9?w=600&auto=format&fit=crop&q=80",
+    rating: 4.7,
+    sizes: "One Size",
+    colors: "Bright Gold,Liquid Silver",
+    stock: 15
   }
 ];
 
@@ -164,22 +501,25 @@ export async function initializeDatabase() {
     `);
     console.log('Order Items table verified/created.');
 
-    // 4. Check if we already have products, if not insert dummy data
-    const res = await client.query('SELECT COUNT(*) FROM products');
-    const count = parseInt(res.rows[0].count, 10);
-    
-    if (count === 0) {
-      console.log('No products found, seeding dummy clothing data...');
-      for (const p of products) {
+    // 4. Robust upsert-style seeding of products list
+    console.log('Checking and seeding dummy clothing data...');
+    let addedCount = 0;
+    for (const p of products) {
+      const checkRes = await client.query('SELECT id FROM products WHERE name = $1', [p.name]);
+      if (checkRes.rows.length === 0) {
         await client.query(
           `INSERT INTO products (name, category, description, price, image_url, rating, sizes, colors, stock)
            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
           [p.name, p.category, p.description, p.price, p.image_url, p.rating, p.sizes, p.colors, p.stock]
         );
+        addedCount++;
       }
-      console.log(`Successfully seeded ${products.length} products!`);
+    }
+    
+    if (addedCount > 0) {
+      console.log(`Successfully seeded ${addedCount} new products!`);
     } else {
-      console.log(`Database already has ${count} products. Skipping seeding.`);
+      console.log('All catalog products already exist in database.');
     }
 
     console.log('Database initialization complete!');
