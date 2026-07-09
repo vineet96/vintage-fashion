@@ -14,9 +14,9 @@ const products = [
     stock: 24
   },
   {
-    name: "Gabriela Wool Blend Trench Coat",
+    name: "Gabriela Classic Tan Bomber Jacket",
     category: "women",
-    description: "An elegant, double-breasted trench coat tailored in a premium wool blend. Features a structured lapel, button-adjustable cuffs, removable tie-belt at the waist, and deep welt pockets. Designed to drape gracefully over any attire.",
+    description: "A sleek and lightweight tan bomber jacket tailored for modern wear. Features a classic ribbed knit collar, full-front zipper closure, utility sleeve pockets, and comfortable handwarmer pockets. Designed to blend clean minimalist lines with everyday comfort.",
     price: 279.50,
     image_url: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
     rating: 4.7,
@@ -69,9 +69,9 @@ const products = [
     stock: 8
   },
   {
-    name: "Handstitched Leather Satchel",
+    name: "Chevron Quilted Leather Handbag",
     category: "accessories",
-    description: "A masterclass in traditional leathercraft. Made from thick vegetable-tanned leather, handstitched with heavy-duty waxed thread. Solid brass buckles, an adjustable shoulder strap, and multiple internal compartments designed to comfortably fit a 15-inch laptop.",
+    description: "Exquisite chevron-quilted black leather handbag with a luxurious padded texture. Accented with elegant gold-toned chain shoulder straps and a classic interlocking clasp closure. A premium accessory to elevate any semi-formal or evening outfit.",
     price: 159.00,
     image_url: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&auto=format&fit=crop&q=80",
     rating: 4.9,
@@ -102,14 +102,14 @@ const products = [
     stock: 50
   },
   {
-    name: "Genevieve Pleated Silk Scarf",
-    category: "accessories",
-    description: "Luxurious 100% silk twill scarf with a rich retro floral and geometric hand-rolled edge pattern. Soft, lightweight, and versatile - can be styled as a head scarf, necktie, or wrapped around the handle of your favorite handbag.",
+    name: "Editorial Burgundy Winter Coat",
+    category: "women",
+    description: "An exceptionally luxurious outerwear statement piece. Crafted from a thick, heavy-weight wool and cashmere blend in a deep, rich burgundy wine hue. Boasts high-set stand-up lapels, a tailored silhouette, and a warm, elegant beige turtleneck under-layer. Designed for unparalleled cold-weather sophistication.",
     price: 65.00,
-    image_url: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&auto=format&fit=crop&q=80",
+    image_url: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&auto=format&fit=crop&q=80",
     rating: 4.7,
-    sizes: "90cm x 90cm",
-    colors: "Vintage Ochre,Ruby Red",
+    sizes: "XS,S,M,L,XL",
+    colors: "Deep Burgundy",
     stock: 35
   },
 
@@ -126,9 +126,9 @@ const products = [
     stock: 18
   },
   {
-    name: "Selvedge Denim Worker Jacket",
+    name: "Selvedge Indigo Denim Jeans",
     category: "men",
-    description: "Constructed from heavy 14oz Japanese raw selvedge denim. This rugged workwear utility jacket boasts reinforced triple-stitched seams, multi-point utility pockets, and copper buttons that develop beautiful character over time.",
+    description: "Woven on traditional shuttle looms from premium raw Japanese selvedge denim. These high-waisted jeans feature a classic straight-leg cut, durable double-stitch construction, and a clean copper-riveted design. A rugged heritage piece that forms beautiful custom character.",
     price: 165.00,
     image_url: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&auto=format&fit=crop&q=80",
     rating: 4.7,
@@ -137,20 +137,20 @@ const products = [
     stock: 12
   },
   {
-    name: "Vintage Suede Sherpa Coat",
+    name: "Terracotta Cotton Overshirt",
     category: "men",
-    description: "Luxuriously thick split-suede leather coat lined with premium plush sherpa fleece. Engineered with adjustable tab cuffs, a heavy-duty zipper and storm flap, and deep fleece-lined handwarmer pockets.",
+    description: "Expertly tailored from premium, mid-weight brushed organic cotton canvas. This versatile overshirt features a rich terracotta/rust shade, a relaxed buttoned front, clean flat chest pockets, and a soft structured collar. Wear it open over a white tee for a refined, modern casual style.",
     price: 295.00,
-    image_url: "https://images.unsplash.com/photo-1619533224911-2713f3cb118a?w=600&auto=format&fit=crop&q=80",
+    image_url: "https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?w=600&auto=format&fit=crop&q=80",
     rating: 4.9,
     sizes: "S,M,L,XL,XXL",
-    colors: "Saddle Tan,Espresso Brown",
+    colors: "Terracotta,Rust,Oatmeal",
     stock: 10
   },
   {
-    name: "Retro Fine-Knit Polo Shirt",
+    name: "Retro Orange Crewneck Sweatshirt",
     category: "men",
-    description: "Classic 1970s style knit polo shirt crafted in organic cotton. This shirt presents a beautiful knit point collar, tailored ribbed cuffs, and contrasting vintage stripes across the chest.",
+    description: "Spun from premium, ultra-soft organic cotton loopback fleece. This vintage-inspired crewneck sweatshirt presents a vibrant amber-orange shade, a classic relaxed fit, and cozy ribbed cuffs and hem. A standout layering piece for effortless weekend style.",
     price: 79.00,
     image_url: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=600&auto=format&fit=crop&q=80",
     rating: 4.4,
@@ -181,9 +181,9 @@ const products = [
     stock: 16
   },
   {
-    name: "1950s Leather Varsity Jacket",
+    name: "Classic Plaid Flannel Work Shirt",
     category: "men",
-    description: "An absolute retro standout. Made with custom thick wool-blend body panels and contrasted with genuine, ultra-soft full-grain cowhide leather sleeves. Classic striped ribbed cuffs, hem, and collar.",
+    description: "A classic heavy-duty flannel button-up shirt featuring a rugged grey, black, and white plaid pattern. Crafted from thick, double-brushed cotton flannel with dual buttoned chest pockets and comfortable button cuffs. A durable workwear-inspired wardrobe staple.",
     price: 260.00,
     image_url: "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=600&auto=format&fit=crop&q=80",
     rating: 4.8,
@@ -203,9 +203,9 @@ const products = [
     stock: 14
   },
   {
-    name: "Aran Fisherman Wool Turtleneck",
+    name: "Classic Black Graphic T-Shirt",
     category: "men",
-    description: "Authentic, high-weight knit sweater featuring traditional Aran cable and diamond patterns. Spun from 100% thick, insulating Highland wool to keep you warm in any weather.",
+    description: "Cut from ultra-soft, premium heavyweight organic cotton. This classic black short-sleeve crewneck t-shirt features a striking, clean white graphic print on the chest. Designed with a structured ribbed collar and a comfortable relaxed drape.",
     price: 155.00,
     image_url: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&auto=format&fit=crop&q=80",
     rating: 4.7,
@@ -214,22 +214,22 @@ const products = [
     stock: 20
   },
   {
-    name: "British Waxed Hunting Vest",
+    name: "British Tweed Layering Blazer ensemble",
     category: "men",
-    description: "Perfect layer for transitional weather. Tailored in water-repellent waxed canvas, featuring a zippered front, side-loading game pockets, corduroy lining inside, and dual front cartridges utility pockets.",
+    description: "The ultimate in dapper countryside layering. This premium item represents a dapper layered ensemble featuring a rugged wool-tweed blazer jacket styled over a dark, high-collar zip-up utility vest and a classic denim shirt. Includes a matching pocket square and leather strap accents.",
     price: 110.00,
-    image_url: "https://images.unsplash.com/photo-1629130740379-2a9d35fa173b?w=600&auto=format&fit=crop&q=80",
+    image_url: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?w=600&auto=format&fit=crop&q=80",
     rating: 4.4,
     sizes: "M,L,XL",
-    colors: "Dark Khaki,Deep Navy",
+    colors: "Brown Tweed & Olive Vest",
     stock: 22
   },
 
   // 10 NEW WOMEN'S ITEMS (AUDITED & CORRECTED)
   {
-    name: "1940s Crepe Floral Tea Dress",
+    name: "Sunny Crop Hoodie & Sweatpants Set",
     category: "women",
-    description: "A gorgeous, authentic vintage silhouette tea dress crafted in fluid crepe fabric. Adorned with a delicate hand-drawn wild floral pattern, gentle puff sleeves, a sweetheart neckline, and a cinched tie back.",
+    description: "Spun from ultra-soft cotton-blend fleece for supreme cozy comfort. This vibrant sunny yellow matching lounge set includes a stylish cropped drawstring hoodie and relaxed-fit jogger sweatpants. Ideal for cozy days in or casual urban activewear.",
     price: 149.00,
     image_url: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&auto=format&fit=crop&q=80",
     rating: 4.8,
@@ -238,9 +238,9 @@ const products = [
     stock: 14
   },
   {
-    name: "Victorian Lace High-Neck Blouse",
+    name: "Midnight Noir Tailored Trench Coat",
     category: "women",
-    description: "An elegant, romantic blouse made from semi-sheer organic cotton. Features intricate floral lace inserts along the collar and chest, a sophisticated high buttoned neck, and ruffled cuffs.",
+    description: "An exceptionally tailored, double-breasted trench coat in deep midnight black. Boasts structured notch lapels, sharp shoulder silhouettes, deep welt pockets, and custom tonal buttons. A premium layering coat that offers sharp elegance and wind-resistant protection.",
     price: 75.00,
     image_url: "https://images.unsplash.com/photo-1583391265517-35bbdad01209?w=600&auto=format&fit=crop&q=80",
     rating: 4.6,
@@ -260,9 +260,9 @@ const products = [
     stock: 20
   },
   {
-    name: "Retro Suede A-Line Button Skirt",
+    name: "Silver Sequined One-Shoulder Dress",
     category: "women",
-    description: "Structured A-line skirt tailored from genuine premium goat suede leather. Features a full snap-button front closure, a flattering high-waist band, and beautiful seam stitch paneling.",
+    description: "Capture absolute nighttime glamour. This showstopping one-shoulder cocktail dress is adorned with thousands of shimmering silver sequins that catch the light beautifully. Designed with a sleek, body-hugging silhouette and premium stretch lining.",
     price: 139.00,
     image_url: "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?w=600&auto=format&fit=crop&q=80",
     rating: 4.7,
@@ -293,9 +293,9 @@ const products = [
     stock: 10
   },
   {
-    name: "Bohemian Embroidered Peasant Blouse",
+    name: "Vintage Floral Grey Lace Blouse",
     category: "women",
-    description: "A breezy, vintage-style peasant blouse crafted from lightweight cotton-voile. Decorated with extensive, vibrant floral embroidery along the yoke, balloon sleeves, and tied tassels.",
+    description: "An elegant, romantic semi-sheer blouse crafted with delicate floral lace inserts and fine mesh panelling. Styled with an exquisite high-neck collar, intricate floral overlay, and gracefully flared cuffs. A perfect vintage-inspired dressy top.",
     price: 69.50,
     image_url: "https://images.unsplash.com/photo-1509319117193-57bab727e09d?w=600&auto=format&fit=crop&q=80",
     rating: 4.4,
@@ -304,9 +304,9 @@ const products = [
     stock: 24
   },
   {
-    name: "Vintage Satin Evening Gown",
+    name: "Vintage Scarf & Pink Coat Set",
     category: "women",
-    description: "Pure glamour. Woven in liquid-like heavy satin that drapes and shines beautifully. Features an elegant cowl neck, cross-back adjustable spaghetti straps, and a sweeping floor-length hem.",
+    description: "An elegant, cold-weather outerwear pairing. Features a beautifully tailored winter overcoat in soft pastel pink, styled with wide lapels and clean tailored lines, paired with a gorgeous vintage-patterned wool-fleece scarf for luxurious, cozy layering.",
     price: 240.00,
     image_url: "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=600&auto=format&fit=crop&q=80",
     rating: 4.9,
@@ -315,14 +315,14 @@ const products = [
     stock: 6
   },
   {
-    name: "Flannel Plaid Heritage Dress",
+    name: "Satin Camisole & Trench Set",
     category: "women",
-    description: "A cozy and classic shirt dress constructed from thick, double-brushed cotton flannel. Features a full button-through front, matching fabric tie-belt, buttoned sleeves, and a classic curved shirttail hem.",
+    description: "A premium and highly-curated casual chic set. Features an ultra-soft white silk-satin camisole top paired with high-waisted, form-fitting light wash denim jeans, completed by an elegant, lightweight beige trench coat draped over the shoulder. Effortlessly luxurious.",
     price: 98.00,
-    image_url: "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=600&auto=format&fit=crop&q=80",
+    image_url: "https://images.unsplash.com/photo-1566207274740-0f8cf6b7d5a5?w=600&auto=format&fit=crop&q=80",
     rating: 4.5,
     sizes: "S,M,L,XL",
-    colors: "Red Tartan,Forest Green Plaid",
+    colors: "Satin White & Light Wash",
     stock: 16
   },
   {
@@ -427,14 +427,14 @@ const products = [
     stock: 10
   },
   {
-    name: "Handwoven Alpaca Wool Scarf",
+    name: "Handwoven Crochet Fringe Poncho",
     category: "accessories",
-    description: "Woven in the Peruvian Andes using 100% fine Baby Alpaca wool fibers. Naturally thermal, water-resistant, hypoallergenic, and detailed with elegant fringed edges for cozy luxury.",
+    description: "Woven with a gorgeous, lightweight open-knit texture from ultra-soft cotton-blend yarns. This stunning bohemian poncho features a classic V-neckline, cascading drape, and beautiful fringed hem detail. A versatile, cozy layering piece for any season.",
     price: 65.00,
-    image_url: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&auto=format&fit=crop&q=80",
+    image_url: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&auto=format&fit=crop&q=80",
     rating: 4.8,
-    sizes: "180cm x 35cm",
-    colors: "Oatmeal Melange,Charcoal Twist,Deep Teal",
+    sizes: "One Size",
+    colors: "Off-White,Cream",
     stock: 32
   },
   {
@@ -500,8 +500,31 @@ export async function initializeDatabase() {
       );
     `);
     console.log('Order Items table verified/created.');
+ 
+    // 4. Clean up old renamed product names to prevent duplicates
+    const oldNames = [
+      "Gabriela Wool Blend Trench Coat",
+      "Handstitched Leather Satchel",
+      "Genevieve Pleated Silk Scarf",
+      "Selvedge Denim Worker Jacket",
+      "Vintage Suede Sherpa Coat",
+      "Retro Fine-Knit Polo Shirt",
+      "1950s Leather Varsity Jacket",
+      "Aran Fisherman Wool Turtleneck",
+      "British Waxed Hunting Vest",
+      "1940s Crepe Floral Tea Dress",
+      "Victorian Lace High-Neck Blouse",
+      "Retro Suede A-Line Button Skirt",
+      "Bohemian Embroidered Peasant Blouse",
+      "Vintage Satin Evening Gown",
+      "Flannel Plaid Heritage Dress",
+      "Handwoven Alpaca Wool Scarf"
+    ];
+    await client.query('DELETE FROM order_items WHERE product_id IN (SELECT id FROM products WHERE name = ANY($1))', [oldNames]);
+    await client.query('DELETE FROM products WHERE name = ANY($1)', [oldNames]);
+    console.log('Old renamed products cleaned up from database.');
 
-    // 4. Robust upsert-style seeding of products list
+    // 5. Robust upsert-style seeding of products list
     console.log('Checking and seeding/updating dummy clothing data...');
     let addedCount = 0;
     let updatedCount = 0;
